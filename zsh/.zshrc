@@ -7,7 +7,6 @@ eval "$(brew shellenv)"
 
 eval "$(gdircolors)"
 
-source $ZSH/oh-my-zsh.sh
 
 # unbind ctrl g in terminal
 bindkey -r "^G"
@@ -118,4 +117,3 @@ alias sethvault="cd ~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/set
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-. "/Users/personal/.deno/env"

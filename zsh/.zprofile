@@ -61,11 +61,6 @@ export PATH="$PATH:/Applications/010 Editor.app/Contents/CmdLine" #ADDED BY 010 
 
 #------------Langs------------
 
-# Golang
-export GOPATH=$HOME/go
-export PATH=$GOPATH/bin:$PATH
-export PATH=$PATH:$(go env GOPATH)/bin
-
 # Setting PATH for Python 3.11
 # The original version is saved in .zprofile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.11/bin:${PATH}"

@@ -19,6 +19,8 @@ config.window_padding = {
     bottom = 5,
 }
 
+config.window_background_opacity = 0.8
+
 config.max_fps = 120
 config.animation_fps = 120
 config.front_end = "WebGpu"
