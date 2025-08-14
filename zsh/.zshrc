@@ -116,4 +116,4 @@ alias sethvault="cd ~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/set
 # brew installations activation (new mac systems brew path: opt/homebrew , not usr/local )
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
+export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
