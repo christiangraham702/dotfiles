@@ -13,6 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup(
     {
+        { "LazyVim/LazyVim", import = "lazyvim.plugins"},
         { import = "sethy.plugins" },
         { import = "sethy.plugins.lsp" },
     },
