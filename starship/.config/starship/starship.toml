@@ -160,11 +160,11 @@ format = '[ $symbol( $version) ]($style)'
 
 [c]
 symbol = " "
-format = '[[ $symbol( $version) ]]($style)'
+format = '[$symbol $version]($style)'
 
 [rust]
 symbol = ""
-format = '[[ $symbol( $version) ]]($style)'
+format = '[$symbol $version]($style)'
 
 [golang]
 symbol = ""
@@ -173,21 +173,21 @@ detect_files = ["go.mod"]
 
 [php]
 symbol = ""
-format = '[[ $symbol( $version) ]]($style)'
+format = '[$symbol $version]($style)'
+
 
 [java]
 symbol = " "
-format = '[[ $symbol( $version) ]]($style)'
+format = '[$symbol $version]($style)'
+
 
 [kotlin]
 symbol = ""
-
-format = '[[ $symbol( $version) ]]($style)'
+format = '[$symbol $version]($style)'
 
 [haskell]
 symbol = ""
-
-format = '[[ $symbol( $version) ]]($style)'
+format = '[$symbol $version]($style)'
 
 [python]
 symbol = ""
@@ -199,7 +199,7 @@ format = '[ $symbol( $context) ]($style)'
 
 
 [time]
-disabled = true
+disabled = true 
 time_format = "%R"
 style = "bg:peach"
 format = '[[  $time ](fg:mantle bg:foam)]($style)'
