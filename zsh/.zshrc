@@ -24,7 +24,7 @@ eval "$(zoxide init zsh)"
 
 # FZF
 eval "$(fzf --zsh)"
-
+export FZF_DEFUALT_OPTS='--preview="chafa -s 40 {}"'
 # FZF with Git right in the shell by Junegunn : check out his github below
 # Keymaps for this is available at https://github.com/junegunn/fzf-git.sh
 source ~/scripts/fzf-git.sh
