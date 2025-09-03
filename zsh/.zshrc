@@ -84,7 +84,7 @@ alias nzo="~/scripts/zoxide_openfiles_nvim.sh"
 
 # Next level of an ls 
 # options :  --no-filesize --no-time --no-permissions 
-alias ls="eza --no-filesize --long --color=always --icons=always --no-user" 
+alias ls="eza  --long --color=always --icons=always --no-user" 
 
 # tree
 alias tree="tree -L 3 -a -I '.git' --charset X "
